@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact us</title>
+    
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h4>MY PORTFOLIO </h4>
+            <nav>          
+                <ul>
+                    
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href="contact.html"> Contact us</a></li>
+                    <li><a href="index.html"> Home</a></li>
+                    <h6><li style="cursor: pointer;"
+                    onclick="navshow()">&#x2630;</li></h6>
+                </ul>
+            </nav>
+
+            <div class="second-nav" id="show">
+                <ul>   
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="contact.html">Contact us</a></li>   
+                 <li><a href="about.html">About</a></li>
+                 </ul>
+             </div>
+      
+
+        </div>
+        <div class="image-me">
+            <img src="bg.png"  alt="">
+        </div>
+<br>
+        <div class="text">
+            <h5> <center>FOR MORE INFORMATION PLEASE CONTACT: <br><br> 09653055353
+            <br><br>glazyanne03@gmail.com</center>
+
+            </p></h5>
+          </div>
+           
+        </div>
+        </div>
+
+      <script>function navshow() {
+        let x = document.getElementById('show');
+    
+        if (x.style.display=="block"){
+            x.style.display="none";
+        }else{
+            x.style.display="block";
+        }
+    }</script> 
+
+</body>
+</html>
